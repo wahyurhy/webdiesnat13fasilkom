@@ -1,75 +1,3 @@
-/* Untuk SmartPhone */
-@media all and (max-width: 1000px) {
-  .main {
-    width: 850px;
-    height: 1140px;
-    background: red;
-    overflow: hidden;
-    background: url("../assets/img/5.jpg") no-repeat center / cover;
-    border-radius: 10px;
-    box-shadow: 5px 20px 50px #000;
-  }
-
-  .sponsor-1 {
-    width: 75px;
-    position: fixed;
-    transform: translate(10px, -15px);
-  }
-
-  label {
-    color: #fff;
-    font-size: 6.3em;
-    justify-content: center;
-    display: flex;
-    margin-top: 25px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  p {
-    color: #fff;
-    font-size: 3.3em;
-    justify-content: center;
-    display: flex;
-    margin: 1px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .btn {
-    text-align: center;
-    line-height: 70px;
-    width: 80%;
-    height: 70px;
-    margin: 10px auto;
-    justify-content: center;
-    display: block;
-    color: #fff;
-    background: #573b8a;
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: 30px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    transition: 0.2s ease-in;
-    cursor: pointer;
-    transform: translateY(90px);
-    box-shadow: 3px 10px 20px #000;
-    font-family: "Jost", sans-serif;
-  }
-
-  .natalis {
-    height: 960px;
-    background: url("../assets/img/2.jpg") no-repeat center / cover;
-    border-radius: 60% / 10%;
-    transform: translateY(-840px);
-    transition: 0.8s ease-in-out;
-  }
-}
-
 /* Untuk Ipad Pro */
 @media all and (max-width: 1024px) {
   .main {
@@ -77,12 +5,24 @@
     height: 1140px;
     background: red;
     overflow: hidden;
-    background: url("../assets/img/5.jpg") no-repeat center / cover;
+    background: url("../assets/img/4.jpg") no-repeat center / cover;
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
   }
 
-  label {
+  .sponsor-1 {
+    width: 80px;
+    position: fixed;
+    transform: translate(15px, 15px);
+  }
+
+  .logo {
+    width: 500px;
+    position: fixed;
+    transform: translate(170px, -100px);
+  }
+
+  /* label {
     color: #fff;
     font-size: 6.3em;
     justify-content: center;
@@ -91,17 +31,17 @@
     font-weight: bold;
     cursor: pointer;
     transition: 0.5s ease-in-out;
-  }
+  } */
 
   p {
-    color: #fff;
-    font-size: 3.3em;
+    color: rgb(56, 51, 51);
+    font-size: 3em;
     justify-content: center;
     display: flex;
     margin: 1px;
     font-weight: bold;
-    cursor: pointer;
     transition: 0.5s ease-in-out;
+    transform: translate(0px, 250px);
   }
 
   .btn {
@@ -112,8 +52,8 @@
     margin: 10px auto;
     justify-content: center;
     display: block;
-    color: #fff;
-    background: #573b8a;
+    color: rgb(56, 51, 51);
+    background: #eae8ee;
     font-size: 2em;
     font-weight: bold;
     margin-top: 30px;
@@ -129,9 +69,9 @@
 
   .natalis {
     height: 960px;
-    background: url("../assets/img/2.jpg") no-repeat center / cover;
+    background: url("../assets/img/3.jpg") no-repeat center / cover;
     border-radius: 60% / 10%;
-    transform: translateY(-840px);
+    transform: translateY(-740px);
     transition: 0.8s ease-in-out;
   }
 }
