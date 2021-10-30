@@ -5,7 +5,7 @@
     height: 1140px;
     background: red;
     overflow: hidden;
-    background: url("../assets/img/4.jpg") no-repeat center / cover;
+    background: url("../assets/img/5.jpg") no-repeat center / cover;
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
   }
@@ -17,9 +17,9 @@
   }
 
   .logo {
-    width: 500px;
+    width: 700px;
     position: fixed;
-    transform: translate(170px, -100px);
+    transform: translate(80px, -70px);
   }
 
   /* label {
@@ -34,8 +34,8 @@
   } */
 
   p {
-    color: rgb(56, 51, 51);
-    font-size: 3em;
+    color: #fff;
+    font-size: 2.7em;
     justify-content: center;
     display: flex;
     margin: 1px;
@@ -52,9 +52,9 @@
     margin: 10px auto;
     justify-content: center;
     display: block;
-    color: rgb(56, 51, 51);
-    background: #eae8ee;
-    font-size: 2em;
+    color: #fff;
+    background: #573b8a;
+    font-size: 2.4em;
     font-weight: bold;
     margin-top: 30px;
     outline: none;
@@ -69,9 +69,9 @@
 
   .natalis {
     height: 960px;
-    background: url("../assets/img/3.jpg") no-repeat center / cover;
+    background: url("../assets/img/2.jpg") no-repeat center / cover;
     border-radius: 60% / 10%;
-    transform: translateY(-740px);
+    transform: translateY(-780px);
     transition: 0.8s ease-in-out;
   }
 }
