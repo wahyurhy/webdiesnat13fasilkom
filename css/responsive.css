@@ -10,6 +10,12 @@
     box-shadow: 5px 20px 50px #000;
   }
 
+  .sponsor-1 {
+    width: 75px;
+    position: fixed;
+    transform: translate(10px, -15px);
+  }
+
   label {
     color: #fff;
     font-size: 6.3em;
